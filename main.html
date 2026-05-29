@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - BUT Informatique</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="monHeader">
+            <h1>Salomon DEVEAU</h1> 
+            <p class="subtitle">Étudiant en 1ère année de BUT Informatique</p>
+            <p class="bio">Voici mon portfolio, composé pour l'instant de projets universitaires. Vous trouverez des liens menant vers les dépôts GitLab correspondants. Ce site sera agrémenté au fil des mois.</p>
+            
+            <a href="CV_2026.pdf" class="btn-cv" download="CV_Salomon_Deveau.pdf">Téléchargez mon CV ! (PDF)</a>
+        </div>
+    </header>
+
+    <main>
+        <h2>Mes Projets</h2>
+        
+        <div class="monCarousel">
+            <button class="arrow-btn btnGauche" id="slideLeft">&#10094;</button>
+            
+            <div class="projects-container" id="projectsContainer">
+                
+                <div class="case-projet">
+                    <img src="capture-particules.png" alt="Capture d'écran de la SAE 1.01">
+                    <div class="info-projet">
+                        <h3>SAÉ 1.01 - Implémentation d'un besoin client</h3>
+                        <p>Developpement d'un générateur de particules en Golang. <br> Rigueur et optimisation algorithmique, liberté créative...</p>
+                        <a href="https://gitlab.univ-nantes.fr/E176230E/sae_1.01" target="_blank" class="btn-gitlab">Voir sur GitLab</a>
+                    </div>
+                </div>
+
+                <!--
+                <div class="case-projet">
+                    <img src="?" alt="Capture d'écran du Projet 2">
+                    <div class="info-projet">
+                        <h3>SAÉ 1.02 - Comparaison d'algorithmes</h3>
+                        <p>Analyse de performances et tris en Java. Un super projet de début d'année.</p>
+                        <a href="https://gitlab.com/ton-username/projet2" target="_blank" class="btn-gitlab">Voir sur GitLab</a>
+                    </div>
+                </div>
+                -->
+                
+                </div>
+            
+            <button class="arrow-btn btnDroit" id="slideRight">&#10095;</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <h3>Me contacter / Me suivre</h3>
+            <p>Actuellement en recherche d'alternance pour la rentrée 2026 ! Contactez-moi :</p>
+            <div class="social-links">
+                <a href="javascript:void(0);" id="emailLink" onclick="showEmail(event)">📧 Email</a>
+                <a href="https://www.linkedin.com/in/salomon-deveau-b913bb39a/" target="_blank">💼 LinkedIn</a>
+                <a href="https://gitlab.univ-nantes.fr/E176230E" target="_blank">🦊 GitLab</a>
+            </div>
+            <p class="copyright">&copy; 2026 - Salomon Deveau</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
