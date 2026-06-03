@@ -148,7 +148,7 @@ main h2 {
     flex-grow: 1; 
 }
 
-.btn-gitlab {
+.btn-github {
     display: block;
     text-align: center;
     padding: 10px;
@@ -161,7 +161,7 @@ main h2 {
     transition: background 0.2s;
 }
 
-.btn-gitlab:hover {
+.btn-github:hover {
     background-color: #e24329;
 }
 
